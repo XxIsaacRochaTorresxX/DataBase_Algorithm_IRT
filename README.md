@@ -71,12 +71,14 @@ Este proyecto consiste en el desarrollo de un motor de base de datos mínimo imp
 
 ## Estructura del Proyecto
 
+```
 motor_db/
 ├── include/        # Archivos de encabezado
 ├── src/            # Código fuente
 ├── tests/          # Pruebas unitarias
 ├── Makefile        # Archivo para compilar el proyecto
 └── README.md       # Documentación del proyecto
+```
 
 ## Pruebas Unitarias
 
