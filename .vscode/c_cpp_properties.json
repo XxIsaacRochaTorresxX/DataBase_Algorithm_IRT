@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/include",        // Carpeta de cabeceras de tu proyecto
+                "${workspaceFolder}/src",            // Carpeta de código fuente de tu proyecto
+                "C:/MinGW/include",                  // Ruta de MinGW (ajusta si es necesario)
+                "C:/MinGW/lib/gcc/mingw32/6.3.0/include"  // Ruta a las cabeceras de GCC
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/MinGW/bin/gcc.exe", // Ruta al compilador GCC de MinGW
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
